@@ -6,9 +6,9 @@ let herois = [
     {nome: "Killjoy", xp: 7.000 || 8.000},
     {nome: "Sage", xp: 8.001 || 9.000},
     {nome:  "Sova", xp: 9.001 || 10.000},
-    {nome: "Skye", xp: 10.001 > }
+    {nome: "Skye", xp: 10.001 },
 ];
-const = nivel = 0;
+
 
 if (xp < 1.000) {
     nivel = "Ferro"
@@ -38,9 +38,9 @@ else if (xp <= 10.000) {
     nivel = "Imortal"
     console.log("XP baixo, continue jogando!");
 }
-else (xp >= 10.001) {
+else if (xp >= 10.001) {
     nivel = "Radiante"
     console.log("XP baixo, continue jogando!");
-}   
-console.log ("O herói de nome" + {herois.nome 5} + " está no nível" + {nivel 5} + "!")
+}
+console.log ("O herói de nome" + {heroisnome5} + " está no nível" + {nivel5} + "!")
 console.log("O herói de nome Sage está no nível Diamante!");
