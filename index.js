@@ -42,5 +42,9 @@ else if (xp >= 10.001) {
     nivel = "Radiante"
     console.log("XP baixo, continue jogando!");
 }
+else {
+    console.log("XP baixo, continue jogando!");
+}
+
 console.log ("O herói de nome" + {heroisnome5} + " está no nível" + {nivel5} + "!")
 console.log("O herói de nome Sage está no nível Diamante!");
